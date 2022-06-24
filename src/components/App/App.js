@@ -1,8 +1,8 @@
 import React from 'react';
-import Editor from "./Editor"
 import Split from "react-split"
 import {nanoid} from "nanoid"
 import Sidebar from '../Sidebar/Sidebar';
+import Editor from '../Editor/Editor';
 import './App.css';
 
 function App() {

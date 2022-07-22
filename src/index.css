@@ -21,10 +21,6 @@ input {
   outline: none;
 }
 
-/* input[type="text"] {
-  pointer-events: none;
-} */
-
 button:focus {
   outline: none;
 }
@@ -55,8 +51,6 @@ section.pane.editor {
 }
 
 .mde-text {
-  /* resize: none !important; */
-  /* height: 100vh !important; */
   margin: 0.5em;
   border-radius: 6px;
   width: 98.5%;
@@ -121,7 +115,6 @@ section.pane.editor {
   font-size: 0.8em;
   font-weight: 400;
   letter-spacing: 0.08em;
-  /* user-select: none; */
 }
 
 .note-container {
@@ -191,31 +184,9 @@ section.pane.editor {
   border-bottom: 1px solid lightgray;
 }
 
-/* .text-snippet {
-  letter-spacing: 0.15em;
-  margin: 0.5em 0 1.5em 0;
-  font-size: 0.8rem;
-  font-weight: 700;
-  line-height: 1.2rem;
-  color: #4A4E74;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  max-width: 80%;
-} */
-
 .selected-note {
   background-color: #4A4E74;
 }
-
-/* .selected-note:focus-within {
-  background-color: red;
-  animation: bounce 0.1s ease-out;
-} */
-
-/* .selected-note .text-snippet {
-  color: white;
-} */
 
 .gutter {
   background-color: #eee;
@@ -345,6 +316,7 @@ section.pane.editor {
       transform: translateY(0px);
   }
 }
+
 .bounce {
   animation: bounce 1s ease-out;
 }

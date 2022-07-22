@@ -124,6 +124,11 @@ section.pane.editor {
   /* user-select: none; */
 }
 
+.note-container {
+  background-color: whitesmoke;
+  border-bottom: 1px solid gray;
+}
+
 .note-description-container {
   display: flex;
   flex-direction: column;
@@ -132,7 +137,6 @@ section.pane.editor {
   width: 100%;
   margin-left: 0.5em;
 }
-
 
 .title {
   overflow: hidden;
@@ -145,7 +149,6 @@ section.pane.editor {
   min-height: 75px;
   max-height: 200px;
   position: relative;
-  background-color: #4A4E74;
 }
 
 .title-input {
@@ -188,7 +191,7 @@ section.pane.editor {
   border-bottom: 1px solid lightgray;
 }
 
-.text-snippet {
+/* .text-snippet {
   letter-spacing: 0.15em;
   margin: 0.5em 0 1.5em 0;
   font-size: 0.8rem;
@@ -199,20 +202,20 @@ section.pane.editor {
   overflow: hidden;
   text-overflow: ellipsis;
   max-width: 80%;
-}
+} */
 
 .selected-note {
   background-color: #4A4E74;
 }
 
-.selected-note:focus-within {
-  background-color: #4a4e74c2;
-  /* animation: bounce 0.1s ease-out; */
-}
+/* .selected-note:focus-within {
+  background-color: red;
+  animation: bounce 0.1s ease-out;
+} */
 
-.selected-note .text-snippet {
+/* .selected-note .text-snippet {
   color: white;
-}
+} */
 
 .gutter {
   background-color: #eee;

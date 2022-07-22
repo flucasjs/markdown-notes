@@ -122,6 +122,10 @@ section.pane.editor {
   border-bottom: 1px solid gray;
 }
 
+.note-container:hover .gg-trash {
+  animation: fadeIn 1s ease-out;
+}
+
 .note-description-container {
   display: flex;
   flex-direction: column;

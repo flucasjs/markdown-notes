@@ -297,16 +297,6 @@ section.pane.editor {
   }
 }
 
-@keyframes grow {
-  0% {
-      width: 0%;
-  }
-
-  100% {
-      width: 95%;
-  }
-}
-
 @keyframes bounce {
   0% {
       transform: translateY(5px);

@@ -39,6 +39,7 @@ export default function Sidebar(props) {
                 currentNote={props.currentNote}
                 creationDateTime={note.creationDateTime}
                 updateNote={props.updateNote}
+                setCurrentNoteId={props.setCurrentNoteId}
             />
         )
     });

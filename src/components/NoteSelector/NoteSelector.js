@@ -4,8 +4,9 @@ export default function NoteSelector(props) {
     return (
         <div 
             key={props.id}
-            onClick={(event) => props.handleClick(event, props.id)}
+            onClick={() => {props.setCurrentNoteId(props.id)}}
             onBlur={props.handleBlur}
+            className="note-container"
         >
             <div
                 className={`title flex-row ${

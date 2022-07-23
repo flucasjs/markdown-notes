@@ -37,7 +37,7 @@ export default function Sidebar(props) {
                 title={getTitle(note) || "Title"}
                 deleteNote={props.deleteNote}
                 currentNote={props.currentNote}
-                creationDateTime={note.creationDateTime}
+                editTime={note.editTime}
                 updateNote={props.updateNote}
                 setCurrentNoteId={props.setCurrentNoteId}
             />

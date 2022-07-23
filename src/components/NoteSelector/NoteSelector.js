@@ -15,7 +15,7 @@ export default function NoteSelector(props) {
             >
                 <div className="note-description-container">
                     <span className="title">{props.title}</span>
-                    <span className="date">{`${props.creationDateTime}`}</span>
+                    <span className="date">{`${props.editTime}`}</span>
                 </div>
                 <button 
                     className="delete-btn"

@@ -111,10 +111,16 @@ section.pane.editor {
 
 .date {
   margin: 0;
+  padding-inline: 0.5em;
   opacity: 0.5;
   font-size: 0.8em;
   font-weight: 400;
   letter-spacing: 0.08em;
+}
+
+.last-edit-date {
+  color: #797979;
+  margin-left: 0.5em;
 }
 
 .note-container {

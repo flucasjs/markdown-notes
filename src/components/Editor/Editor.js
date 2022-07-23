@@ -27,9 +27,12 @@ export default function Editor({ currentNote, updateNote }) {
                 generateMarkdownPreview={(markdown) =>
                     Promise.resolve(converter.makeHtml(markdown))
                 }
-                minEditorHeight={80}
+                minEditorHeight={90}
                 heightUnits="vh"
             />
+            <div>
+                <span className="last-edit-date">Last Edited On {currentNote.editTime}</span>
+            </div>
         </section>
     )
 }

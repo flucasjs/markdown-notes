@@ -17,22 +17,18 @@ function App() {
     function createNewNote() {
         const DATE_TIME_OPTIONS = {
             month: 'long', 
-            day: 'numeric', 
-            year: 'numeric', 
-            hour: 'numeric', 
-            'minute': 'numeric', 
-            'second': 'numeric'
+            day: 'numeric'
         }
 
-        const creationDateTimeFormat =  new Intl.DateTimeFormat('en-US', DATE_TIME_OPTIONS);
+        const timeFormat =  new Intl.DateTimeFormat('en-US', DATE_TIME_OPTIONS);
         const currentTime = Date.now();
-        const creationDateTime = creationDateTimeFormat.format(currentTime);
+        const editTime = timeFormat.format(currentTime);
 
         const newNote = {
             id: nanoid(),
             title: "Title",
             body: "Title\n",
-            creationDateTime
+            editTime
         }
 
         setNotes(prevNotes => [newNote, ...prevNotes])
